@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      New Project!
+      New Project! Some more changes
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusamus
         blanditiis, quasi sit facere voluptates aspernatur laudantium sapiente
