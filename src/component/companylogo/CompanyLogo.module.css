@@ -1,0 +1,26 @@
+.imageContainer {
+  width: 10%;
+}
+
+.companyImage {
+  cursor: pointer;
+  max-width: 40%;
+}
+
+@media screen and (max-width: 850px) {
+  .companyImage {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .companyImage {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .companyImage {
+    max-width: 80%;
+  }
+}

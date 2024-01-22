@@ -1,0 +1,41 @@
+.rightContainer {
+  width: 18%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  gap: 0.5rem;
+}
+.iconsHeader {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .rightContainer {
+      margin-right: 4rem;
+    }
+  }
+
+
+@media screen and (max-width: 950px) {
+    .rightContainer {
+      margin-right: 5rem;
+    }
+  }
+
+@media screen and (max-width: 850px) {
+  .rightContainer {
+    margin-right: 7rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .rightContainer {
+    display: none;
+  }
+}

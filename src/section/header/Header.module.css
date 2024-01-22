@@ -1,0 +1,104 @@
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 5px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+
+
+.searchContainer {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(80, 72, 72);
+  padding: 10px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.select {
+  width: 10%;
+  border: none;
+  outline: none;
+  transition: max-height 0.3s ease-in-out;
+}
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  font-size: 1.3rem;
+}
+
+.searchIcon {
+  font-size: 1.6rem;
+}
+.icons:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .sectionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .rightContainer {
+    margin-right: 5rem;
+    order: 2;
+  }
+  .searchContainer {
+    width: 100%;
+    margin: 1rem auto;
+    order: 3;
+  }
+}
+.close {
+  display: none;
+}
+.menu {
+  display: none;
+}
+
+
+@media screen and (max-width: 850px) {
+  .rightContainer {
+    margin-right: 7rem;
+  }
+  .companyImage {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .rightContainer {
+    display: none;
+  }
+  .close,
+  .menu {
+    position: absolute;
+    right: 1rem;
+    top: 0.7rem;
+    display: block;
+    z-index: 999;
+    font-size: 1.4rem;
+  }
+  .companyImage {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .input {
+    width: 70%;
+  }
+  .companyImage {
+    max-width: 80%;
+  }
+}
